@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Database](database/postgresql.md)
-* [Database](database/mysql.md)
+* [Postgresql](database/postgresql.md)
+* [Mysql](database/mysql.md)
