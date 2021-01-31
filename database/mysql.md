@@ -33,3 +33,12 @@ FLUSH PRIVILEGES;
 ```
 REVOKE type_of_permission ON database_name.table_name FROM 'user_name'@'host_name';
 ```
+8. Login Database
+```
+mysql -u user_name -p
+```
+
+9. Remote Login
+```
+mysql -u user_name -p -h host_name
+```
