@@ -5,3 +5,6 @@
 * [Mysql](database/mysql.md)
 * [Git](git/git.md)
 * [Centos](server/centos.md)
+* [Install Dependency](server/install-dependency.md)
+* [Install SSL Certificate](server/install-ssl-certificate.md)
+* [Database Autobackup](server/database_autobackup.md)
