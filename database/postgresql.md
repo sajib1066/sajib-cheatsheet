@@ -2,8 +2,32 @@
 ```
 sudo -u postgres psql
 ```
+2. Create User
+```
+CREATE USER user_name WITH ENCRYPTED PASSWORD 'password';
+```
 
-1. import database
+3. Create Database
+```
+CREATE DATABASE database_name;
+```
+
+4. Drop Database
+```
+DROP DATABASE database_name;
+```
+
+5. Grant Permission
+```
+GRANT ALL PRIVILEGES ON DATABASE database_name TO user_name;
+```
+
+6. Show Database
+```
+\l
+```
+
+7. import database
 ```
 psql -U username dbname < file_name
 ```
