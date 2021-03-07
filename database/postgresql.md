@@ -34,3 +34,8 @@ psql -U username dbname < file_name
 ```
 psql -U username -h host_name -f database_file.sql -d database_name
 ```
+
+8. export database
+```
+pg_dump -U username dbname > dbexport.pgsql
+```
