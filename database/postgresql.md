@@ -14,6 +14,7 @@ CREATE DATABASE database_name;
 
 4. Drop Database
 ```
+SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE pg_stat_activity.datname = 'db_name' AND pid <> pg_backend_pid();
 DROP DATABASE database_name;
 ```
 
