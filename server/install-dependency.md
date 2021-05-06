@@ -1,3 +1,8 @@
+1. Generate SSH Key
+```
+ssh-keygen -t rsa -b 4096
+```
+
 1. Update Dependency
 ```
 sudo yum update -y
