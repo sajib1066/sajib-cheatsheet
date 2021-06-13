@@ -16,13 +16,13 @@ username ALL=(ALL) NOPASSWD:ALL
 
 3. User Permissions
 ```
-sudo chown -R username:username /opt
+sudo chown -R username:username /opt/folder_name
 ```
 ```
-sudo chmod -R g+ws /opt
+sudo chmod -R g+ws /opt/folder_name
 ```
 ```
- sudo setfacl -Rdm u::rwx,g::rwx,o::r-x /opt
+ sudo setfacl -Rdm u::rwx,g::rwx,o::r-x /opt/folder_name
 ```
 ```
 sudo setfacl -Rdm u::rwx,g::rwx,o::r-x /opt/folder_name
