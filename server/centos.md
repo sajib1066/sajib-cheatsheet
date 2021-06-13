@@ -13,3 +13,20 @@ sudo visudo
 ```
 username ALL=(ALL) NOPASSWD:ALL
 ```
+
+3. User Permissions
+```
+sudo chown -R username:username /opt
+```
+```
+sudo chmod -R g+ws /opt
+```
+```
+ sudo setfacl -Rdm u::rwx,g::rwx,o::r-x /opt
+```
+```
+sudo setfacl -Rdm u::rwx,g::rwx,o::r-x /opt/folder_name
+```
+```
+sudo chown -R username:nginx /opt/folder_name
+```
