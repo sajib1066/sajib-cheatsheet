@@ -11,3 +11,18 @@ sudo chmod 775 backup.sh
 ```
 crontab -e
 ```
+
+4. Configure AWS
+```
+aws configure
+```
+
+5. Show Config
+```
+cat ~/.aws/config
+```
+
+6. Show Credentials
+```
+cat ~/.aws/credentials
+```
