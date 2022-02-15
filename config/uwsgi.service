@@ -1,0 +1,17 @@
+[Unit]
+Description=Project-Name-uWSGI-instance
+After=network.target postgresql-14.service
+
+[Service]
+User=centos
+Group=nginx
+WorkingDirectory=/opt/<project_directory>
+Environment="PATH=/opt/<project_directory>/venv/bin"
+ExecStart=/opt/<project_directory>/venv/bin/uwsgi --ini /opt/<project_directory>/uwsgi/uwsgi.ini
+Restart=always
+KillSignal=SIGQUIT
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
