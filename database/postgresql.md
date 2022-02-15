@@ -7,6 +7,16 @@ sudo -u postgres psql
 CREATE USER user_name WITH ENCRYPTED PASSWORD 'password';
 ```
 
+3. Create Superuser
+```
+CREATE USER user_name SUPERUSER;
+```
+
+4. Set Password or Reset Password
+```
+\password user_name
+```
+
 3. Create Database
 ```
 CREATE DATABASE database_name;

@@ -55,19 +55,19 @@ sudo yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86
 yum list postgresql*
 ```
 ```
-sudo yum install postgresql12-server
+sudo yum install postgresql13-server
 ```
 ```
-sudo /usr/pgsql-12/bin/postgresql-12-setup initdb
+sudo /usr/pgsql-13/bin/postgresql-13-setup initdb
 ```
 ```
-sudo systemctl start postgresql-12.service
+sudo systemctl start postgresql-13.service
 ```
 ```
-sudo systemctl enable postgresql-12.service
+sudo systemctl enable postgresql-13.service
 ```
 ```
-sudo systemctl status postgresql-12.service
+sudo systemctl status postgresql-13.service
 ```
 
 5. Install Nginx
