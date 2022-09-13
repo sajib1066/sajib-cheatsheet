@@ -55,6 +55,9 @@ sudo yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86
 yum list postgresql*
 ```
 ```
+sudo dnf module disable postgresql
+```
+```
 sudo yum install postgresql13-server
 ```
 ```
