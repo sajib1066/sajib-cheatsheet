@@ -52,7 +52,7 @@ sudo make altinstall
 sudo yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 ```
 ```
-yum list postgresql*
+sudo yum list postgresql* -y
 ```
 ```
 sudo dnf module disable postgresql
